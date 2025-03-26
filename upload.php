@@ -1,7 +1,7 @@
 <?php
 
 $uploadDir = 'uploads/';
-$allowedTypes = ['image/jpeg', 'image/png', 'application/pdf'];
+$allowedTypes = ['application/pdf'];
 $maxSize = 2 * 1024 * 1024;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
